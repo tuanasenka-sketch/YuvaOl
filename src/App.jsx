@@ -27,7 +27,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/YuvaOl">
       <Navbar />
       <main className="page-content">
         <Routes>
